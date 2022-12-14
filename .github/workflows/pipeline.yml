@@ -7,10 +7,10 @@ jobs:
     env:
       TERM: dumb
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - uses: joschi/setup-jdk@v2.3.0
+      - name: Checkout reppository code
+        uses: actions/checkout@v3
+      - uses: joschi/setup-jdk@v3
         with:
-          java-version: 11
+          java-version: 17
       - name: Build
-        run: ./gradlew check
+        run: ./gradlew build
