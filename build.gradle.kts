@@ -1,5 +1,6 @@
 plugins {
     java
+    alias(libs.plugins.gitSemVer)
 }
 
 group = "org.example"
@@ -10,8 +11,8 @@ repositories {
 }
 
 dependencies {
-    testImplementation("org.junit.jupiter:junit-jupiter-api:5.9.1")
-    testRuntimeOnly("org.junit.jupiter:junit-jupiter-engine")
+    testImplementation(rootProject.libs.junit.api)
+    testRuntimeOnly(rootProject.libs.junit.engine)
 }
 
 tasks.getByName<Test>("test") {
