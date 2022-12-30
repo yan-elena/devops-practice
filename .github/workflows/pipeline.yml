@@ -33,7 +33,7 @@ jobs:
           fetch-depth: 0
       - name: Release
         env:
-          GITHUB_TOKEN: ${{ secrets.DEPLOYMENT_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_DEPLOYMENT_TOKEN }}
         run: |
           npm install
           npx semantic-release
