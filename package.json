@@ -1,5 +1,6 @@
 {
   "name": "devops-practice",
+  "private": true,
   "devDependencies": {
     "semantic-release-preconfigured-conventional-commits": "1.1.15"
   },
