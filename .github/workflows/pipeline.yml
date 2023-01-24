@@ -34,7 +34,6 @@ jobs:
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           npm install
           npx semantic-release
