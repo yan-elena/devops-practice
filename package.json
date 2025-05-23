@@ -5,7 +5,7 @@
     "semantic-release-preconfigured-conventional-commits": "1.1.85"
   },
   "engines": {
-    "node": "22.15"
+    "node": "22.16"
   },
   "release": {
     "branches": [
