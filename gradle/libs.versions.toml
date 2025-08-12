@@ -9,4 +9,4 @@ junit-engine = {module = "org.junit.jupiter:junit-jupiter-engine", version.ref="
 
 
 [plugins]
-gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:5.1.8"
+gitSemVer = "org.danilopianini.git-sensitive-semantic-versioning-gradle-plugin:6.0.0"
